@@ -77,9 +77,9 @@ public class RestApi {
 
 
 
-    @GetMapping("/recette")
+    @GetMapping("/national")
     @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherRecette() {
+    public String afficherMarqueInternational() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
@@ -90,7 +90,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_recette.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_marque.txt");
             System.out.println(res);
 
 
@@ -103,9 +103,9 @@ public class RestApi {
     }
 
 
-    @GetMapping("/liquide")
+    @GetMapping("/marqueNational")
     @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherLiquide() {
+    public String afficherInternational() {
         String NS = "";
         // lire le model a partir d'une ontologie
         if (model != null) {
