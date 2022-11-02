@@ -273,5 +273,43 @@ public class RestApi {
         }
     }
 
+    @GetMapping("/drive-in")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String getDriveIn() {
+        if (model != null) {
+            model.getNsPrefixURI("");
+            Model inferredModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferredModel, "data/query_drive-in.txt");
+            if(res != null) {
+                System.out.println(res);
+                return res.toString();
+            }
+            else {
+                return ("No entities");
+            }
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+    @GetMapping("/superette")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String getSuperette() {
+        if (model != null) {
+            model.getNsPrefixURI("");
+            Model inferredModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferredModel, "data/query_superette.txt");
+            if(res != null) {
+                System.out.println(res);
+                return res.toString();
+            }
+            else {
+                return ("No entities");
+            }
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
 
 }

@@ -289,9 +289,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in -->
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drivein -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in">
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drivein">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
     </owl:Class>
     
@@ -337,6 +337,7 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette -->
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette">
@@ -471,7 +472,7 @@
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#azur -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#azur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drivein"/>
         <address>mourouj</address>
         <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</idBoutique>
         <nameBoutique>azure</nameBoutique>
@@ -490,7 +491,7 @@
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#carrefour -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#carrefour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drivein"/>
         <address>Marsa</address>
         <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</idBoutique>
         <nameBoutique>carrefour</nameBoutique>
@@ -501,7 +502,7 @@
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#geant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#geant">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drivein"/>
         <address>sidi thabet</address>
         <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</idBoutique>
         <nameBoutique>geant</nameBoutique>
