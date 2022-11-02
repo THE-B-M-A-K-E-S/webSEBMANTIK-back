@@ -144,6 +144,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#name -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#name">
@@ -188,6 +196,22 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#title">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture_type -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
 
@@ -345,6 +369,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -482,6 +514,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ahmed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ahmed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ariena -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ariena">
@@ -498,6 +539,15 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#caddy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#caddy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture"/>
+        <voiture_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">caddy 512 FM</voiture_type>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#carrefour -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#carrefour">
@@ -506,10 +556,28 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#electrique -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#electrique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo"/>
+        <velo_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">tesla</velo_type>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#geant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#geant">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#karim -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#karim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur"/>
     </owl:NamedIndividual>
     
 
@@ -527,6 +595,21 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#soukra">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#vispa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#vispa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto"/>
+        <moto_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Z1000</moto_type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture"/>
 </rdf:RDF>
 
 
