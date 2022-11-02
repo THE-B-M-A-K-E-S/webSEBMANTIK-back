@@ -68,6 +68,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo"/>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType"/>
@@ -176,6 +182,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#phone_number -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#phone_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#price -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#price">
@@ -196,6 +210,14 @@
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#title">
         <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#username -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#username">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo"/>
     </owl:DatatypeProperty>
     
 
@@ -519,6 +541,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ahmed">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur"/>
+        <phone_number rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">55135774</phone_number>
+        <username rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">ahmed</username>
     </owl:NamedIndividual>
     
 
@@ -578,6 +602,8 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#karim">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur"/>
+        <phone_number rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12455445</phone_number>
+        <username rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">karim71</username>
     </owl:NamedIndividual>
     
 
