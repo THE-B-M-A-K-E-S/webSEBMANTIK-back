@@ -281,6 +281,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#international -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#international">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#national -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#national">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque"/>
+    </owl:Class>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -289,6 +305,14 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#CONDOR -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#CONDOR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#international"/>
+    </owl:NamedIndividual>
     
 
 
@@ -337,7 +361,7 @@
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#international"/>
         <idMarque rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</idMarque>
         <title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LG</title>
     </owl:NamedIndividual>
@@ -368,12 +392,36 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#SAMSUNG -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#SAMSUNG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#international"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
         <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</idBoutique>
         <nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiki</nameBoutique>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#bricola -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#bricola">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#national"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#orient -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#orient">
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#national"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
