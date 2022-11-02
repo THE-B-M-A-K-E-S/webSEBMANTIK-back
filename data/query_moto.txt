@@ -7,10 +7,8 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 SELECT *
 WHERE{
 
-	?Chaud rdf:type ns:Chaud;
-	ns:idProduct ?idProduct;
-	ns:name ?name;
-	ns:description ?description;
-	ns:price ?price;
+	?moto rdf:type ns:moto;
+	ns:moto_type ?moto_type;
+
 
 }
