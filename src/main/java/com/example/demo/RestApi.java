@@ -90,7 +90,7 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_marque.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_national.txt");
             System.out.println(res);
 
 
@@ -103,7 +103,7 @@ public class RestApi {
     }
 
 
-    @GetMapping("/marqueNational")
+    @GetMapping("/international")
     @CrossOrigin(origins = "http://localhost:3000")
     public String afficherInternational() {
         String NS = "";
@@ -116,136 +116,10 @@ public class RestApi {
             Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
 
             // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Liquide.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_international.txt");
             System.out.println(res);
 
 
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-
-
-    @GetMapping("/animal")
-    @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherAnimal() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_OrigineAnimal.txt");
-            System.out.println(res);
-
-
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-
-
-    @GetMapping("/vegetal")
-    @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherVegetal() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_OrigineVegetale.txt");
-            System.out.println(res);
-
-
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-
-
-    @GetMapping("/plat")
-    @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherPlat() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Plat.txt");
-            System.out.println(res);
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-
-    @GetMapping("/ingredient")
-    @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherIngredient() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Ingredient.txt");
-            System.out.println(res);
-            return res.toString();
-
-
-        } else {
-            return ("Error when reading model from ontology");
-        }
-    }
-
-    @GetMapping("/difficulte")
-    @CrossOrigin(origins = "http://localhost:3000")
-    public String afficherDifficulte() {
-        String NS = "";
-        // lire le model a partir d'une ontologie
-        if (model != null) {
-            // lire le Namespace de l�ontologie
-            NS = model.getNsPrefixURI("");
-
-            // apply our rules on the owlInferencedModel
-            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
-
-            // query on the model after inference
-            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_Difficulte.txt");
-            System.out.println(res);
             return res.toString();
 
 
