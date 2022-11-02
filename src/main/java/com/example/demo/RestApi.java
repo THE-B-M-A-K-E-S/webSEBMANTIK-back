@@ -118,8 +118,6 @@ public class RestApi {
             // query on the model after inference
             OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_international.txt");
             System.out.println(res);
-
-
             return res.toString();
 
 
@@ -128,7 +126,24 @@ public class RestApi {
         }
     }
 
-
+    @GetMapping("/boutiques")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String getBoutiques() {
+        if (model != null) {
+            model.getNsPrefixURI("");
+            Model inferredModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferredModel, "data/query_boutique.txt");
+            if(res != null) {
+                System.out.println(res);
+                return res.toString();
+            }
+            else {
+                return ("No entities");
+            }
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
 
 
 }
