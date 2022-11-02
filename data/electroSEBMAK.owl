@@ -80,6 +80,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#address -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#address">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#BoutiqueType"/>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#description -->
 
     <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#description">
@@ -419,7 +427,8 @@
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MyTek -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MyTek">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
+        <address>charguia</address>
         <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</idBoutique>
         <nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MyTek</nameBoutique>
     </owl:NamedIndividual>
@@ -451,17 +460,10 @@
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
+        <address>Charguia</address>
         <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</idBoutique>
         <nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiki</nameBoutique>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ariena -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ariena">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
     </owl:NamedIndividual>
     
 
@@ -470,6 +472,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#azur">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+        <address>mourouj</address>
+        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</idBoutique>
+        <nameBoutique>azure</nameBoutique>
     </owl:NamedIndividual>
     
 
@@ -486,6 +491,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#carrefour">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+        <address>Marsa</address>
+        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</idBoutique>
+        <nameBoutique>carrefour</nameBoutique>
     </owl:NamedIndividual>
     
 
@@ -494,14 +502,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#geant">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#marsa -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#marsa">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
+        <address>sidi thabet</address>
+        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</idBoutique>
+        <nameBoutique>geant</nameBoutique>
     </owl:NamedIndividual>
     
 
@@ -510,14 +513,6 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#orient">
         <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#national"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#soukra -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#soukra">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
