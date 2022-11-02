@@ -247,9 +247,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livraiosn -->
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livraiosn"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
     
 
 
@@ -297,6 +297,30 @@
     
 
 
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#national -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#national">
@@ -309,6 +333,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport"/>
     </owl:Class>
     
 
