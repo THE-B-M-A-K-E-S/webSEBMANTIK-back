@@ -435,6 +435,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Cafetiere">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Cuisson"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
         <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
         <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki"/>
         <electroSEBMAK:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bnina</electroSEBMAK:description>
@@ -449,6 +450,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Four">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Chaud"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
         <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
         <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki"/>
         <electroSEBMAK:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four</electroSEBMAK:description>
@@ -462,6 +464,7 @@
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Glaciere -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Glaciere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#SoinMaison"/>
         <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
         <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MyTek"/>
@@ -507,6 +510,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Refrigerateur">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Froid"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
         <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
         <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki"/>
         <electroSEBMAK:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descccc</electroSEBMAK:description>
