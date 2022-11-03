@@ -376,6 +376,22 @@
     
 
 
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Client"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#person">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Client"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette">
@@ -496,6 +512,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#NFL -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#NFL">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ORIENT -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ORIENT">
@@ -552,6 +576,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#amal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#amal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ariena -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ariena">
@@ -564,6 +596,14 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#azur">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#bikers -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#bikers">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation"/>
     </owl:NamedIndividual>
     
 
@@ -585,11 +625,27 @@
     
 
 
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ela -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ela">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#person"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#electrique -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#electrique">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#velo"/>
         <electroSEBMAK:velo_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">tesla</electroSEBMAK:velo_type>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#fifa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#fifa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation"/>
     </owl:NamedIndividual>
     
 
@@ -621,10 +677,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#safa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#safa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#person"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#soukra -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#soukra">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#tessa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#tessa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#person"/>
     </owl:NamedIndividual>
     
 
