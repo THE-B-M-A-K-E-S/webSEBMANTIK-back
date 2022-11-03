@@ -8,6 +8,7 @@ SELECT *
 WHERE{
 	?Client rdf:type ns:Client;
 	ns:idClient ?idClient;
-	ns:firstName ?lastName;
+	ns:firstName ?firstName;
+	ns:lastName ?lastName;
     ns:phone ?phone
 }
