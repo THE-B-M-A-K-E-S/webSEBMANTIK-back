@@ -1,12 +1,13 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#"
-     xml:base="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology"
+<rdf:RDF xmlns="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/recette-cuisine-ontology#"
+     xml:base="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/recette-cuisine-ontology"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology"/>
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:electroSEBMAK="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK"/>
     
 
 
@@ -21,20 +22,20 @@
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#fabriquePar -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#fabriquePar -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#fabriquePar">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Produit"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#fabriquePar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Marque"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#venduPar -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#venduPar -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#venduPar">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Produit"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#venduPar">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
     </owl:ObjectProperty>
     
 
@@ -50,189 +51,189 @@
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#BoutiqueType -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#BoutiqueType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#BoutiqueType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#BoutiqueType"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ClientType -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ClientType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ClientType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ClientType"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivraisonType -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivraisonType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivraisonType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivraisonType"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivreurInfo -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivreurInfo"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MarqueType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MarqueType"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ProductType -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ProductType -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ProductType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ProductType"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#description -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#description -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#description">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ProductType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#description">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ProductType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#firstName -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#firstName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#firstName">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ClientType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#firstName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ClientType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idBoutique -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idBoutique -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idBoutique">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#BoutiqueType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idBoutique">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#BoutiqueType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idClient -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idClient -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idClient">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ClientType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idClient">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ClientType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idLivraison -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idLivraison -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idLivraison">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivraisonType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idLivraison">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivraisonType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idMarque -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idMarque -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idMarque">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idMarque">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MarqueType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idProduct -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idProduct -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#idProduct">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ProductType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#idProduct">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ProductType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#lastName -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#lastName -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#lastName">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ClientType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#lastName">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ClientType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto_type -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moto_type -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto_type">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moto_type">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#name -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#name -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#name">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ProductType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#name">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ProductType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#nameBoutique -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#nameBoutique -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#nameBoutique">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#BoutiqueType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#nameBoutique">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#BoutiqueType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#phone -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#phone -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#phone">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ClientType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#phone">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ClientType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#phone_number -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#phone_number -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#phone_number">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#phone_number">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivreurInfo"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#price -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#price -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#price">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ProductType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#price">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ProductType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#quantity -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#quantity -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#quantity">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivraisonType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#quantity">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivraisonType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#title -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#title -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#title">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MarqueType"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#title">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MarqueType"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#username -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#username -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#username">
-        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LivreurInfo"/>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#username">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LivreurInfo"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo_type -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#velo_type -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo_type">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#velo_type">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture_type -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#voiture_type -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture_type">
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#voiture_type">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
     </owl:DatatypeProperty>
     
@@ -249,152 +250,152 @@
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Chaud -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Chaud -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Chaud">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#GrosElectromenager"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Chaud">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#GrosElectromenager"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Client -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Client -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Client"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Client"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Cuisson -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Cuisson -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Cuisson">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#PetitElectromenager"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Cuisson">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#PetitElectromenager"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Froid -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Froid -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Froid">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#GrosElectromenager"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Froid">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#GrosElectromenager"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#GrosElectromenager -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#GrosElectromenager -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#GrosElectromenager">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Produit"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#GrosElectromenager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#International -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#International -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#International">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#International">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Marque"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Livrison -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Livrison"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Marque -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Marque"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#National -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#National -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#National">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Marque"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#National">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Marque"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#PetitElectromenager -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#PetitElectromenager -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#PetitElectromenager">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Produit"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#PetitElectromenager">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Produit -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Produit"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Produit"/>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#SoinMaison -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#SoinMaison -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#SoinMaison">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#PetitElectromenager"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#SoinMaison">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#PetitElectromenager"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#livreur -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#livreur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Livrison"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moto -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moto">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moyen_de_transport"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moyen_de_transport -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moyen_de_transport">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Livrison"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#velo -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#velo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moyen_de_transport"/>
     </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#voiture -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moyen_de_transport"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#voiture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moyen_de_transport"/>
     </owl:Class>
     
 
@@ -410,232 +411,232 @@
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#BRICOLA -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#BRICOLA -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#BRICOLA">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#National"/>
-        <idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">255</idMarque>
-        <title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">bricole 712P</title>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#BRICOLA">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#National"/>
+        <electroSEBMAK:idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">255</electroSEBMAK:idMarque>
+        <electroSEBMAK:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">bricole 712P</electroSEBMAK:title>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#CONDOR -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#CONDOR -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#CONDOR">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#International"/>
-        <idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12</idMarque>
-        <title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">conondor 6969S</title>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#CONDOR">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#International"/>
+        <electroSEBMAK:idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12</electroSEBMAK:idMarque>
+        <electroSEBMAK:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">conondor 6969S</electroSEBMAK:title>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Cafetiere -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Cafetiere -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Cafetiere">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Cuisson"/>
-        <fabriquePar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG"/>
-        <venduPar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki"/>
-        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bnina</description>
-        <idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</idProduct>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lavazza</name>
-        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</price>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Cafetiere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Cuisson"/>
+        <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
+        <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki"/>
+        <electroSEBMAK:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bnina</electroSEBMAK:description>
+        <electroSEBMAK:idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</electroSEBMAK:idProduct>
+        <electroSEBMAK:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lavazza</electroSEBMAK:name>
+        <electroSEBMAK:price rdf:datatype="http://www.w3.org/2001/XMLSchema#double">60.0</electroSEBMAK:price>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Four -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Four -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Four">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Chaud"/>
-        <fabriquePar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG"/>
-        <venduPar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki"/>
-        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four</description>
-        <idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</idProduct>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four</name>
-        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</price>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Four">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Chaud"/>
+        <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
+        <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki"/>
+        <electroSEBMAK:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four</electroSEBMAK:description>
+        <electroSEBMAK:idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4</electroSEBMAK:idProduct>
+        <electroSEBMAK:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Four</electroSEBMAK:name>
+        <electroSEBMAK:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">80</electroSEBMAK:price>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Glaciere -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Glaciere -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Glaciere">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#SoinMaison"/>
-        <fabriquePar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG"/>
-        <venduPar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MyTek"/>
-        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desc</description>
-        <idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</idProduct>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaciere</name>
-        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</price>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Glaciere">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#SoinMaison"/>
+        <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
+        <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MyTek"/>
+        <electroSEBMAK:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">desc</electroSEBMAK:description>
+        <electroSEBMAK:idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</electroSEBMAK:idProduct>
+        <electroSEBMAK:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glaciere</electroSEBMAK:name>
+        <electroSEBMAK:price rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</electroSEBMAK:price>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#International"/>
-        <idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1</idMarque>
-        <title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LG</title>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#International"/>
+        <electroSEBMAK:idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1</electroSEBMAK:idMarque>
+        <electroSEBMAK:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">LG</electroSEBMAK:title>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MyTek -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MyTek -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#MyTek">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
-        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</idBoutique>
-        <nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MyTek</nameBoutique>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MyTek">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
+        <electroSEBMAK:idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</electroSEBMAK:idBoutique>
+        <electroSEBMAK:nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MyTek</electroSEBMAK:nameBoutique>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ORIENT -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ORIENT -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ORIENT">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#National"/>
-        <idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">254</idMarque>
-        <title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">orient 520R</title>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ORIENT">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#National"/>
+        <electroSEBMAK:idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">254</electroSEBMAK:idMarque>
+        <electroSEBMAK:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">orient 520R</electroSEBMAK:title>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Refrigerateur -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Refrigerateur -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Refrigerateur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Froid"/>
-        <fabriquePar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#LG"/>
-        <venduPar rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki"/>
-        <description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descccc</description>
-        <idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</idProduct>
-        <name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refrigerateur 1</name>
-        <price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</price>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Refrigerateur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Froid"/>
+        <electroSEBMAK:fabriquePar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#LG"/>
+        <electroSEBMAK:venduPar rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki"/>
+        <electroSEBMAK:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Descccc</electroSEBMAK:description>
+        <electroSEBMAK:idProduct rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3</electroSEBMAK:idProduct>
+        <electroSEBMAK:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Refrigerateur 1</electroSEBMAK:name>
+        <electroSEBMAK:price rdf:datatype="http://www.w3.org/2001/XMLSchema#string">200</electroSEBMAK:price>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#SAMSUNG -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#SAMSUNG -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#SAMSUNG">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#International"/>
-        <idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5445</idMarque>
-        <title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">samsung SG4000</title>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#SAMSUNG">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#International"/>
+        <electroSEBMAK:idMarque rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5445</electroSEBMAK:idMarque>
+        <electroSEBMAK:title rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">samsung SG4000</electroSEBMAK:title>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Wiki">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Boutique"/>
-        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</idBoutique>
-        <nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiki</nameBoutique>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Wiki">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
+        <electroSEBMAK:idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</electroSEBMAK:idBoutique>
+        <electroSEBMAK:nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiki</electroSEBMAK:nameBoutique>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ahmed -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ahmed -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ahmed">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur"/>
-        <phone_number rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">55135774</phone_number>
-        <username rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">ahmed</username>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ahmed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Livrison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#livreur"/>
+        <electroSEBMAK:phone_number rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">55135774</electroSEBMAK:phone_number>
+        <electroSEBMAK:username rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">ahmed</electroSEBMAK:username>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ariena -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ariena -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#ariena">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ariena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#azur -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#azur -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#azur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#azur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#caddy -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#caddy -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#caddy">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture"/>
-        <voiture_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">caddy 512 FM</voiture_type>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#caddy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#voiture"/>
+        <electroSEBMAK:voiture_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">caddy 512 FM</electroSEBMAK:voiture_type>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#carrefour -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#carrefour -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#carrefour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#carrefour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#electrique -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#electrique -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#electrique">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#velo"/>
-        <velo_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">tesla</velo_type>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#electrique">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#velo"/>
+        <electroSEBMAK:velo_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">tesla</electroSEBMAK:velo_type>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#geant -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#geant -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#geant">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#drive-in"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#geant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#karim -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#karim -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#karim">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#Livrison"/>
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#livreur"/>
-        <phone_number rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12455445</phone_number>
-        <username rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">karim71</username>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#karim">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Livrison"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#livreur"/>
+        <electroSEBMAK:phone_number rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">12455445</electroSEBMAK:phone_number>
+        <electroSEBMAK:username rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">karim71</electroSEBMAK:username>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#marsa -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#marsa -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#marsa">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#marsa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#soukra -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#soukra -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#soukra">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#superette"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#soukra">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette"/>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#vispa -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#vispa -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#vispa">
-        <rdf:type rdf:resource="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#moto"/>
-        <moto_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Z1000</moto_type>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#vispa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#moto"/>
+        <electroSEBMAK:moto_type rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Z1000</electroSEBMAK:moto_type>
     </owl:NamedIndividual>
     
 
 
-    <!-- http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#voiture -->
 
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#voiture"/>
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#voiture"/>
 </rdf:RDF>
 
 

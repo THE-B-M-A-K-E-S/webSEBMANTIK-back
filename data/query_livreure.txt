@@ -1,4 +1,4 @@
-PREFIX ns: <http://www.semanticweb.org/azzab/ontologies/2022/8/recette-cuisine-ontology#>
+PREFIX ns: <http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
 
