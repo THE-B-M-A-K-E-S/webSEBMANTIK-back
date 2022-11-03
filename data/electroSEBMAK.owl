@@ -580,6 +580,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#amal">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation"/>
+        <electroSEBMAK:firstName>amal</electroSEBMAK:firstName>
+        <electroSEBMAK:idClient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">98765</electroSEBMAK:idClient>
+        <electroSEBMAK:lastName>amoula</electroSEBMAK:lastName>
+        <electroSEBMAK:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">987654567</electroSEBMAK:phone>
     </owl:NamedIndividual>
     
 
@@ -629,6 +633,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#ela">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#person"/>
+        <electroSEBMAK:firstName>ELA</electroSEBMAK:firstName>
+        <electroSEBMAK:idClient rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9876543</electroSEBMAK:idClient>
+        <electroSEBMAK:lastName>DEBICHI</electroSEBMAK:lastName>
+        <electroSEBMAK:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9876543456</electroSEBMAK:phone>
     </owl:NamedIndividual>
     
 
