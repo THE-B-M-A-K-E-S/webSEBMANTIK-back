@@ -284,4 +284,24 @@ public class RestApi {
     }
 
 
+    @GetMapping("/clients")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String geClient() {
+        if (model != null) {
+            model.getNsPrefixURI("");
+            Model inferredModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+            OutputStream res =  JenaEngine.executeQueryFile(inferredModel, "data/query_client.txt");
+            if(res != null) {
+                System.out.println(res);
+                return res.toString();
+            }
+            else {
+                return ("No entities");
+            }
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+
 }
