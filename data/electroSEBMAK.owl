@@ -344,9 +344,9 @@
     
 
 
-    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in -->
+    <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in">
+    <owl:Class rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
     </owl:Class>
     
@@ -638,7 +638,13 @@
         <electroSEBMAK:lastName>DEBICHI</electroSEBMAK:lastName>
         <electroSEBMAK:phone rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9876543456</electroSEBMAK:phone>
     </owl:NamedIndividual>
-    
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#azur">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
+        <address>mourouj</address>
+        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</idBoutique>
+        <nameBoutique>azure</nameBoutique>
+    </owl:NamedIndividual>
 
 
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#electrique -->
@@ -656,12 +662,22 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#organisation"/>
     </owl:NamedIndividual>
     
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#carrefour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
+        <address>Marsa</address>
+        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</idBoutique>
+        <nameBoutique>carrefour</nameBoutique>
+    </owl:NamedIndividual>
+    
 
 
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#geant -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#geant">
-        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
+        <address>sidi thabet</address>
+        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</idBoutique>
+        <nameBoutique>geant</nameBoutique>
     </owl:NamedIndividual>
     
 
