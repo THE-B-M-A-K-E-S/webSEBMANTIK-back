@@ -44,6 +44,62 @@ public class RestApi {
             return ("Error when reading model from ontology");
         }
     }
+
+    @GetMapping("/soinmaison")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String afficherSoinMaison() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_soinMaison.txt");
+//            OutputStream res2 =  JenaEngine.executeQueryFile(inferedModel, "data/query_OrigineVegetale.txt");
+//            OutputStream res3 =  JenaEngine.executeQueryFile(inferedModel, "data/query_Liquide.txt");
+
+//            String res = res1.toString() + res2.toString() + res3.toString() ;
+
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
+
+    @GetMapping("/cuisson")
+    @CrossOrigin(origins = "http://localhost:3000")
+    public String afficherCuisson() {
+        String NS = "";
+        // lire le model a partir d'une ontologie
+        if (model != null) {
+            // lire le Namespace de l�ontologie
+            NS = model.getNsPrefixURI("");
+
+            // apply our rules on the owlInferencedModel
+            Model inferedModel = JenaEngine.readInferencedModelFromRuleFile(model, "data/rules.txt");
+
+            // query on the model after inference
+            OutputStream res =  JenaEngine.executeQueryFile(inferedModel, "data/query_cuisson.txt");
+//            OutputStream res2 =  JenaEngine.executeQueryFile(inferedModel, "data/query_OrigineVegetale.txt");
+//            OutputStream res3 =  JenaEngine.executeQueryFile(inferedModel, "data/query_Liquide.txt");
+
+//            String res = res1.toString() + res2.toString() + res3.toString() ;
+
+            System.out.println(res);
+            return res.toString();
+
+
+        } else {
+            return ("Error when reading model from ontology");
+        }
+    }
     @GetMapping("/froid")
     @CrossOrigin(origins = "http://localhost:3000")
     public String afficherFroid() {

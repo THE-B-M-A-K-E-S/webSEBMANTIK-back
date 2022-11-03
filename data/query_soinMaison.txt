@@ -1,0 +1,16 @@
+PREFIX ns: <http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+
+
+
+SELECT *
+WHERE{
+
+	?SoinMaison rdf:type ns:SoinMaison;
+	ns:idProduct ?idProduct;
+	ns:name ?name;
+	ns:description ?description;
+	ns:price ?price;
+
+}
