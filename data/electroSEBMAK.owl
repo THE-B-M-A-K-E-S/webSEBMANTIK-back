@@ -505,9 +505,10 @@
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MyTek -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#MyTek">
-        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#superette"/>
         <electroSEBMAK:idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</electroSEBMAK:idBoutique>
         <electroSEBMAK:nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MyTek</electroSEBMAK:nameBoutique>
+        <electroSEBMAK:address>Tunis</electroSEBMAK:address>
     </owl:NamedIndividual>
     
 
@@ -561,6 +562,7 @@
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#Boutique"/>
         <electroSEBMAK:idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</electroSEBMAK:idBoutique>
         <electroSEBMAK:nameBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wiki</electroSEBMAK:nameBoutique>
+        <electroSEBMAK:address>Tunis</electroSEBMAK:address>
     </owl:NamedIndividual>
     
 
@@ -599,7 +601,7 @@
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#azur -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#azur">
-        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
     </owl:NamedIndividual>
     
 
@@ -624,7 +626,7 @@
     <!-- http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#carrefour -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#carrefour">
-        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drive-in"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
     </owl:NamedIndividual>
     
 
@@ -641,9 +643,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#azur">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
-        <address>mourouj</address>
-        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</idBoutique>
-        <nameBoutique>azure</nameBoutique>
+        <electroSEBMAK:address>mourouj</electroSEBMAK:address>
+        <electroSEBMAK:idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</electroSEBMAK:idBoutique>
+        <electroSEBMAK:nameBoutique>azure</electroSEBMAK:nameBoutique>
     </owl:NamedIndividual>
 
 
@@ -664,9 +666,9 @@
     
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#carrefour">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
-        <address>Marsa</address>
-        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</idBoutique>
-        <nameBoutique>carrefour</nameBoutique>
+        <electroSEBMAK:address>Marsa</electroSEBMAK:address>
+        <electroSEBMAK:idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</electroSEBMAK:idBoutique>
+        <electroSEBMAK:nameBoutique>carrefour</electroSEBMAK:nameBoutique>
     </owl:NamedIndividual>
     
 
@@ -675,9 +677,9 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#geant">
         <rdf:type rdf:resource="http://www.semanticweb.org/SEBMAK/ontologies/2022/8/electroSEBMAK#drivein"/>
-        <address>sidi thabet</address>
-        <idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</idBoutique>
-        <nameBoutique>geant</nameBoutique>
+        <electroSEBMAK:address>sidi thabet</electroSEBMAK:address>
+        <electroSEBMAK:idBoutique rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</electroSEBMAK:idBoutique>
+        <electroSEBMAK:nameBoutique>geant</electroSEBMAK:nameBoutique>
     </owl:NamedIndividual>
     
 
